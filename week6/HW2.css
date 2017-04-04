@@ -1,0 +1,160 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container-top{
+  display:block;
+  background-color: rgba(215,206,206,.15);
+  height: 80px;
+  line-height: 40px;
+}
+
+.icon-left{
+  display: inline-block;
+  float: left;
+  margin: 20px 50px 0 200px;
+}
+
+.list-top li{
+  color:inherit;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  color: rgb(0,0,0);
+  line-height: 14px;
+  margin: 28px;
+  font-size: 24px;
+  font-family: "Agency FB Black"
+}
+
+.list-top a{
+  color: rgb(0,0,0);
+}
+
+asdf{
+  clear: both;
+}
+
+.main-block{
+  height: 562px;
+  background-color: rgb(0,0,0);
+}
+
+@-webkit-keyframes func {
+ 0%{transform:'scale(1)';}
+ 30%{transform:'scale(3)';}
+100%{transform:'scale(1)';}
+}
+.mainphoto {
+  animation: 3s func;
+  text-align: center;
+  height: 562px;
+}
+
+
+.up-block{
+  height: 335px;
+  display: inline-block;
+  text-align: center;
+  margin: 18px 0 18px 0;
+}
+
+.down-block{
+  height: 335px;
+  display: inline-block;
+  text-align: center;
+  margin: 18px 0 18px 0;
+}
+
+.up_title_left, .up-title, .up_title_right {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.down_title_left, .down-title, .down_title_right{
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.second-block{
+  display: block;
+  background-color: rgba(215,206,206,.15);
+}
+
+.up_title_right{
+  margin-left: 121px;
+}
+
+.down_title_right{
+  margin-left: 105.5px;
+}
+
+.up-title h2{
+  font-size: 24px;
+  font-family: "Agency FB Black";
+}
+
+.down-title h2{
+  font-size: 24px;
+  font-family: "Agency FB Black"
+}
+
+line2{
+  display:block;
+  height:1px;
+  background:rgb(0,0,0);
+  margin: 0 0 30px 0;
+}
+
+.foot{
+  display: block;
+  padding-left: 60px;
+  background-color: rgb(0,0,0);
+  weight: 1351px;
+  height: 120px;
+}
+
+.footlist-first {
+  float:left;
+}
+.footlist-second{
+  float: none;
+}
+
+
+.footlist-second li,.footlist-first li{
+  list-style: none;
+  color: rgb(255,255,255);
+}
+
+line1{
+  display:block;
+  height:1px;
+  background:rgb(255,255,255);
+}
+
+.icon-foot{
+  display: inline-block;
+  float: right;
+  margin-right: 200px;
+}
+
+.icon-footbtn{
+  margin-right: 10px;
+}
+
+.foot-content{
+  display: block;
+  background-color: rgb(0,0,0);
+  weight:1351px;
+  padding-left: 60px;
+}
+
+.foot-content p{
+  display: inline-block;
+  color: rgb(255,255,255);
+  margin-right: 50px;
+}
